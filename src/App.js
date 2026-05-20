@@ -3,14 +3,14 @@ import StarRating from "./components/StarRating";
 import Dialog from "./components/Dialog";
 
 function App() {
-  const [showDialog, setShowDialog] = useState(false);
+  const [showBox, setShowBox] = useState(false);
 
-  const openDialog = () => {
-    setShowDialog(true);
+  const openBox = () => {
+    setShowBox(true);
   };
 
-  const closeDialog = () => {
-    setShowDialog(false);
+  const closeBox = () => {
+    setShowBox(false);
   };
 
   return (
@@ -19,13 +19,13 @@ function App() {
       <StarRating title="Movie Review" />
       <button
         className="openBtn"
-        onClick={openDialog}
+        onClick={openBox}
       >
         Open Dialog
       </button>
 
-      {showDialog && (
-        <Dialog text="Thanks for visiting our website!" close={closeDialog}/>
+      {showBox && (
+        <Dialog text="Thanks for visiting our website!" close={closeBox}/>
       )}
     </main>
   );

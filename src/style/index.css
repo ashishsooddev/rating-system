@@ -3,7 +3,8 @@
 
 body {
   margin: 0;
-  background-color: #f4f4f4;
+  color: #fff;
+  background-color: #000000;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -53,7 +54,8 @@ body {
 .dialogCard {
   width: 300px;
   margin: auto;
-  background: white;
+  background: rgb(202, 239, 243);
+  color: #000;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
