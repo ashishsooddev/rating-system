@@ -29,3 +29,23 @@ body {
   justify-content: center;
   gap: 10px;
 }
+
+.st {
+  font-size: 42px;
+  color: gray;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.st:hover {
+  transform: scale(1.1);
+}
+
+.on {
+  color: gold;
+}
+
+.ratingText {
+  margin-top: 15px;
+  font-size: 20px;
+}
