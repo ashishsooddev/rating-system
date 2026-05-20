@@ -1,3 +1,31 @@
 @charset "utf-8";
 @import "./reset.css";
 
+body {
+  margin: 0;
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapBox {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.mainTitle {
+  margin-bottom: 30px;
+}
+
+.ratingArea {
+  margin-bottom: 35px;
+}
+
+.ratingTitle {
+  margin-bottom: 15px;
+}
+
+.starRow {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
