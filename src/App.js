@@ -16,9 +16,7 @@ function App() {
   return (
     <main className="wrapBox">
       <h1 className="mainTitle">Rating System</h1>
-
       <StarRating title="Movie Review" />
-
       <button
         className="openBtn"
         onClick={openDialog}
@@ -27,10 +25,7 @@ function App() {
       </button>
 
       {showDialog && (
-        <Dialog
-          text="Thanks for visiting our website!"
-          close={closeDialog}
-        />
+        <Dialog text="Thanks for visiting our website!" close={closeDialog}/>
       )}
     </main>
   );
