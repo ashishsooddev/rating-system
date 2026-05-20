@@ -49,3 +49,46 @@ body {
   margin-top: 15px;
   font-size: 20px;
 }
+
+.dialogCard {
+  width: 300px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.dialogText {
+  margin-bottom: 15px;
+}
+
+.closeBtn {
+  padding: 10px 20px;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.closeBtn:hover {
+  opacity: 0.8;
+}
+
+
+.openBtn {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 10px 18px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.openBtn:hover {
+  opacity: 0.8;
+}
