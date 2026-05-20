@@ -17,7 +17,7 @@ function StarRating(props) {
       <h2 className="ratingTitle">{props.title}</h2>
       <div className="starRow">
         {[1, 2, 3, 4, 5].map((item) => (
-          <Star key={item} ok={item <= count} hit={() => setCount(item)}/>
+          <Star key={item} ok={item <= count} tap={() => setCount(item)}/>
         ))}
       </div>
       <p className="ratingText">
